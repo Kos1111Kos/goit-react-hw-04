@@ -4,7 +4,7 @@ import styles from "./App.module.css";
 
 import SearchBox from "./components/SearchBox/SearchBox";
 import { requestPhoto } from "./components/ApiServises/ApiServises";
-import ImageGallery from "../components/ImageGallery/ImageGallery";
+import ImageGallery from "./components/ImageGallery/ImageGallery";
 
 const App = () => {
   const [photos, setPhotos] = useState(null);
