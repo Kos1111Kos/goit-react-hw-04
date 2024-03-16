@@ -1,6 +1,6 @@
 const ImageCard = ({ img, description }) => (
   <div>
-    <img src={img.urls.small} alt={img.description} />
+    <img src={img.urls.small} alt={img.alt} />
     <p>{description}</p>
   </div>
 );
